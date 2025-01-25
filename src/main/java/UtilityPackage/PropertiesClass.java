@@ -12,7 +12,7 @@ public class PropertiesClass {
 	{
 		Properties prop = new Properties();
 		
-		String path=System.getProperty("user.dir")+"/src/main/java/ConfigurationLayer/config.properties";
+		String path=System.getProperty("user.dir")+"/src/main/java/ConfigPackage/Orange.properties";
 	
 		try {
 			FileInputStream fis = new FileInputStream(path);
