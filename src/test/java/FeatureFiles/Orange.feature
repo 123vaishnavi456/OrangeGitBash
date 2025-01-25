@@ -10,3 +10,8 @@ Feature: OrangeHRM Application
     When user is on homepage and user validate Logo
     And user validate Title
     And user click on pimPage link
+
+    Scenario: validate AddEmployee functionality
+    When user should click on Add Employee button
+    And user enter firstName as "Krushna" and lastName as "Bhosale"
+    Then user should click on save button
